@@ -1,0 +1,110 @@
+[
+    {
+        "name":"山海",
+        "singer":"华晨宇",
+        "album":"歌手第二季 第九期",
+        "time":"05:09",
+        "music_url":"source/华晨宇 - 山海.mp3",
+        "cover":"img/hua.jpg",
+        "lrc_url":"source/华晨宇 - 山海.txt"
+    },
+    {
+        "name":"齐天大圣",
+        "singer":"华晨宇",
+        "album":"天籁之战 第七期",
+        "time":"04:12",
+        "music_url":"source/华晨宇 - 齐天大圣.mp3",
+        "cover":"img/hua.jpg",
+        "lrc_url":"source/华晨宇 - 齐天大圣.txt"
+    },
+    {
+        "name":"泡沫",
+        "singer":"G.E.M.邓紫棋",
+        "album":"The Best of G.E.M.",
+        "time":"04:18",
+        "music_url":"source/G.E.M.邓紫棋 - 泡沫.mp3",
+        "cover":"img/deng.jpg",
+        "lrc_url":"source/G.E.M.邓紫棋 - 泡沫.txt"
+    },
+    {
+        "name":"平凡之路",
+        "singer":"朴树",
+        "album":"猎户星座",
+        "time":"05:02",
+        "music_url":"source/朴树 - 平凡之路.mp3",
+        "cover":"img/piao.jpg",
+        "lrc_url":"source/朴树 - 平凡之路.txt"
+    },
+    {
+        "name":"狂浪生",
+        "singer":"一棵小葱",
+        "album":"狂浪生",
+        "time":"04:16",
+        "music_url":"source/一棵小葱 - 狂浪生.mp3",
+        "cover":"img/kuang.jpg",
+        "lrc_url":"source/一棵小葱 - 狂浪生.txt"
+    },
+    {
+        "name":"不爱我就拉倒",
+        "singer":"周杰伦",
+        "album":"不爱我就拉倒",
+        "time":"04:05",
+        "music_url":"source/周杰伦-不爱我就拉倒.mp3",
+        "cover":"img/zhou.jpg",
+        "lrc_url":"source/周杰伦-不爱我就拉倒.txt"
+    },
+    {
+        "name":"岁月神偷",
+        "singer":"金玟岐",
+        "album":"金玟岐作品集",
+        "time":"02:42",
+        "music_url":"source/金玟岐 - 岁月神偷.mp3",
+        "cover":"img/jin.jpg",
+        "lrc_url":"source/金玟岐 - 岁月神偷.txt"
+    },
+    {
+        "name":"默",
+        "singer":"那英",
+        "album":"默",
+        "time":"05:25",
+        "music_url":"source/那英 - 默.mp3",
+        "cover":"img/na.jpg",
+        "lrc_url":"source/那英 - 默.txt"
+    },
+    {
+        "name":"有何不可",
+        "singer":"许嵩",
+        "album":"自定义",
+        "time":"04:01",
+        "music_url":"source/许嵩 - 有何不可.mp3",
+        "cover":"img/xu.jpg",
+        "lrc_url":"source/许嵩 - 有何不可.txt"
+    },
+    {
+        "name":"哑巴",
+        "singer":"薛之谦",
+        "album":"哑巴",
+        "time":"04:21",
+        "music_url":"source/薛之谦 - 哑巴.mp3",
+        "cover":"img/ya.jpg",
+        "lrc_url":"source/薛之谦 - 哑巴.txt"
+    },
+    {
+        "name":"演员",
+        "singer":"薛之谦",
+        "album":"绅士",
+        "time":"04:21",
+        "music_url":"source/薛之谦 - 演员.mp3",
+        "cover":"img/yan.jpg",
+        "lrc_url":"source/薛之谦 - 演员.txt"
+    },
+    {
+        "name":"我的滑板鞋",
+        "singer":"华晨宇",
+        "album":"天籁之战 第三期",
+        "time":"03:59",
+        "music_url":"source/华晨宇 - 我的滑板鞋2016.mp3",
+        "cover":"img/hua.jpg",
+        "lrc_url":"source/华晨宇 - 我的滑板鞋2016.txt"
+    }
+]

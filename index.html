@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QQ音乐仿制</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <header>
+        <a class="player_logo" href="">
+            <img class="logo" src="img/logo.png" alt="QQ音乐">
+        </a>
+        <div class="login_box">
+            <a class="player_login" href="">登入</a>
+            <a class="player_set" href="">设置</a>
+        </div>
+    </header>
+    <main>
+        <div class="player_left">
+            <div class="player_buttom">
+                <span><i class="btn_ico_like"></i>收藏</span>
+                <span><i class="btn_ico_add"></i>添加到</span>
+                <span><i class="btn_ico_down"></i>下载</span>
+                <span><i class="btn_ico_delet"></i>删除</span>
+                <span><i class="btn_ico_clear"></i>清空列表</span>
+            </div>
+            <div class="player_list" data-mcs-theme="minimal">
+                <ul class="song_header">
+                    <li class="song_header_check">
+                        <i class="checkbox"></i>
+                    </li>
+                    <li class="song_header_name">歌曲</li>
+                    <li class="song_header_author">歌手</li>
+                    <li class="song_header_time">时长</li>
+                </ul>
+                <ul class="song_list">
+                    <!-- <li class="song">
+                        <i class="checkbox"></i>
+                        <div class="number"></div>
+                        <div class="song_name">
+                            <span class="music_name">不爱我就拉倒</span>
+                            <div class="song_btn">
+                                <i class="stop"></i>
+                                <i class="add"></i>
+                                <i class="down"></i>
+                                <i class="share"></i>
+                            </div>
+                        </div>
+                        <div class="song_author">
+                            <a href="">周杰伦</a>
+                        </div>
+                        <div class="song_time">
+                            <span class="time_text">04:05</span>
+                            <i class="delete"></i>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="player_right">
+            <div class="song_info">
+                <a href="" class="song_img">
+                    <img class="singer_img" src="" alt="">
+                </a>
+                <div class="song_name">歌曲名：<a class="lyr_name" href="">不爱我就拉倒</a></div>
+                <div class="singer_name">歌手名：<a class="lyr_singer" href="">周杰伦</a></div>
+                <div class="album_name">专辑名：<a class="lyr_album" href="">不爱我就拉倒</a></div>
+            </div>
+            <div class="lyrics" id="ly">
+                <ul class="box_lyc">
+                    <!-- <li class="lys">作曲 : 草东没有派对</li> -->
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <span class="btn_prev"></span>
+            <span class="btn_stop btn_start"></span>
+            <span class="btn_next"></span>
+            <div class="music_pogress">
+                <div class="music_text">
+                    <div class="text_left">
+                        <a href="" class="text_name">不爱我就拉倒</a> - <a href="" class="text_singer">周杰伦</a>
+                    </div>
+                    <div class="text_right">00:40 / 06:42</div>
+                </div>
+                <div class="progress">
+                    <div class="line"></div>
+                    <div class="bigline">
+                        <i class="dotted"></i>
+                    </div>
+                </div>
+            </div>
+            <span class="btn_order"></span>
+            <span class="btn_like"></span>
+            <span class="btn_down"></span>
+            <span class="btn_comment"></span>
+            <span class="btn_off"></span>
+            <div class="music_sound">
+                <span class="sound"></span>
+                <div class="progress">
+                    <div class="line"></div>
+                    <div class="bigline">
+                        <i class="dotted"></i>
+                    </div>
+                </div>
+            </div>
+            <audio src="source/周杰伦-不爱我就拉倒.mp3"></audio>
+        </footer>
+    </main>
+    <div class="bg_player_mask"></div>
+    <div class="bg_player"></div>
+</body>
+</html>
