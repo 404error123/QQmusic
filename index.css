@@ -10,7 +10,7 @@ html,body{
 }
 a{
     text-decoration: none;
-    color: #ffff;    
+    color: #fff;    
 }
 ul{
     margin: 0;
@@ -46,13 +46,13 @@ header .login_box a{
 header .login_box a:hover{
     opacity: 1;
 }
-main{
+.main{
     position: relative;
     margin: 0 7.638889%;
     height: 100%;
     cursor: default;    
 }
-main .player_left{
+.main .player_left{
     position: absolute;
     top: 11%;
     left: 0;
@@ -60,10 +60,10 @@ main .player_left{
     height: 78%;    
     color: rgba(225,225,225,.8);   
 }
-main .player_left .player_buttom{
+.main .player_left .player_buttom{
     margin-bottom: 20px;
 }
-main .player_left .player_buttom span{
+.main .player_left .player_buttom span{
     border-radius: 2px;
     margin-right: 6px;
     padding: 0 23px;
@@ -82,12 +82,12 @@ main .player_left .player_buttom span{
     cursor: pointer;
     user-select: none;
 }
-main .player_left .player_buttom span:hover{
+.main .player_left .player_buttom span:hover{
     opacity: 1;
     border-color: rgba(255,255,255,1);
     color: rgba(255,255,255,1);       
 }
-main .player_left .player_buttom span i{
+.main .player_left .player_buttom span i{
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -96,51 +96,51 @@ main .player_left .player_buttom span i{
     vertical-align: -3px;
     opacity: 0.6;
 }
-main .player_left .player_buttom span:hover i{
+.main .player_left .player_buttom span:hover i{
     opacity: 1;
 }
-main .player_left .player_buttom .btn_ico_like{
+.main .player_left .player_buttom .btn_ico_like{
     background-position: -60px -20px;
     vertical-align: -4px;
 }
-main .player_left .player_buttom .btn_ico_add{
+.main .player_left .player_buttom .btn_ico_add{
     background-position: -20px -20px;
 }
-main .player_left .player_buttom .btn_ico_down{
+.main .player_left .player_buttom .btn_ico_down{
     background-position: -40px -240px;
 }
-main .player_left .player_buttom .btn_ico_delet{
+.main .player_left .player_buttom .btn_ico_delet{
     background-position: -100px -20px;
 }
-main .player_left .player_buttom .btn_ico_clear{
+.main .player_left .player_buttom .btn_ico_clear{
     background-position: -40px -300px;
 }
-main .player_left .player_list{
+.main .player_left .player_list{
     height: 72%;
     overflow: auto;
 }
-main .player_left .song_list{
+.main .player_left .song_list{
     overflow: hidden;
 }
-main .player_left .song_header,
-main .player_left .song_list .song{
+.main .player_left .song_header,
+.main .player_left .song_list .song{
     position: relative;
     padding-left: 62px;
     height: 50px;
     line-height: 50px;
     border-top: 1px solid rgba(255,255,255,.05);
 }
-main .player_left .song_header li{
+.main .player_left .song_header li{
     float: left;
 }
-main .player_left .player_list .number{
+.main .player_left .player_list .number{
     position: absolute;
     line-height: 50px;
     text-align: right;
     left: 16px;
     width: 36px;
 }
-main .player_left .player_list .number_bg{
+.main .player_left .player_list .number_bg{
     background: url(img/wave.gif) no-repeat;
     font-size: 0;
     top: 50%;
@@ -149,7 +149,7 @@ main .player_left .player_list .number_bg{
     width: 10px;
     height: 10px;
 }
-main .player_left .player_list .checkbox{
+.main .player_left .player_list .checkbox{
     position: absolute;
     left: 0;
     top: 50%;
@@ -159,43 +159,43 @@ main .player_left .player_list .checkbox{
     border: 1px solid #c9c9c9;
     border-color: rgba(255,255,255,.2);    
 }
-main .player_left .player_list .checkbox_bg{
+.main .player_left .player_list .checkbox_bg{
     background: url(img/icon_sprite.png);
     background-position: -60px -80px;
     border-color: rgba(255,255,255,1);        
 }
-main .player_left .player_list .checkbox:hover{
+.main .player_left .player_list .checkbox:hover{
     border-color: rgba(255,255,255,1);        
 }
-main .player_left .player_list .song_header_name,
-main .player_left .player_list .song_name{
+.main .player_left .player_list .song_header_name,
+.main .player_left .player_list .song_name{
     position: relative;
     width: 64%;
 }
-main .player_left .player_list .song_header_author,
-main .player_left .player_list .song_author{
+.main .player_left .player_list .song_header_author,
+.main .player_left .player_list .song_author{
     width: 26%;
 }
-main .player_left .song_list{
+.main .player_left .song_list{
     border-bottom: 1px solid rgba(255,255,255,.05);
 }
-main .player_left .song_list div{
+.main .player_left .song_list div{
     float: left;
 }
-main .player_left .song_list .song_author a{
+.main .player_left .song_list .song_author a{
     color: rgba(225,225,225,.8);       
 }
-main .player_left .song_list .song_author a:hover{
+.main .player_left .song_list .song_author a:hover{
     color: rgba(255,255,255,1);          
 }
-main .player_left .song_name .song_btn{
+.main .player_left .song_name .song_btn{
     display: none;
     position: absolute;
     right: 15px;
     top: 7px;
 }
-main .player_left .song_name .song_btn i,
-main .player_left .song .song_time i{
+.main .player_left .song_name .song_btn i,
+.main .player_left .song .song_time i{
     float: left;
     margin-right: 10px;
     width: 36px;
@@ -203,60 +203,60 @@ main .player_left .song .song_time i{
     cursor: pointer;
     background: url(img/icon_list_menu.png) no-repeat;
 }
-main .player_left .song .song_time .delete{
+.main .player_left .song .song_time .delete{
     display: none;
     margin-top: 7px;
 }
-main .player_left .song_name .song_btn i.stop{
+.main .player_left .song_name .song_btn i.stop{
     background-position: -80px 0;
 }
-main .player_left .song_name .song_btn i.start{
+.main .player_left .song_name .song_btn i.start{
     background-position: -80px -200px;
 }
-main .player_left .song_name .song_btn i.add{
+.main .player_left .song_name .song_btn i.add{
     background-position: -80px -80px;
 }
-main .player_left .song_name .song_btn i.down{
+.main .player_left .song_name .song_btn i.down{
     background-position: -80px -120px;
 }
-main .player_left .song_name .song_btn i.share{
+.main .player_left .song_name .song_btn i.share{
     background-position: -80px -40px;
 }
-main .player_left .song .song_time i.delete{
+.main .player_left .song .song_time i.delete{
     background-position: -80px -160px;
 }
-main .player_left .song_name .song_btn i.stop:hover{
+.main .player_left .song_name .song_btn i.stop:hover{
     background-position: -120px 0;
 }
-main .player_left .song_name .song_btn i.start:hover{
+.main .player_left .song_name .song_btn i.start:hover{
     background-position: -120px -200px;
 }
-main .player_left .song_name .song_btn i.add:hover{
+.main .player_left .song_name .song_btn i.add:hover{
     background-position: -120px -80px;
 }
-main .player_left .song_name .song_btn i.down:hover{
+.main .player_left .song_name .song_btn i.down:hover{
     background-position: -120px -120px;
 }
-main .player_left .song_name .song_btn i.share:hover{
+.main .player_left .song_name .song_btn i.share:hover{
     background-position: -120px -40px;
 }
-main .player_left .song .song_time i.delete:hover{
+.main .player_left .song .song_time i.delete:hover{
     background-position: -120px -160px;
 }
-main .player_left .song_list .song:hover .song_btn,
-main .player_left .song_list .song:hover .song_time .delete{
+.main .player_left .song_list .song:hover .song_btn,
+.main .player_left .song_list .song:hover .song_time .delete{
     display: block;
 }
-main .player_left .song_list .song:hover .song_time span{
+.main .player_left .song_list .song:hover .song_time span{
     display: none;
 }
-main .player_left .song_btn_show{
+.main .player_left .song_btn_show{
     display: block!important;
 }
-main .player_left .text_hide{
+.main .player_left .text_hide{
     display: none!important;
 }
-main .player_right{
+.main .player_right{
     position: absolute;
     top: 11%;
     right: 0;
@@ -266,14 +266,14 @@ main .player_right{
     color: rgba(225,225,225,.8);
     line-height: 24px;
 }
-main .player_right .song_info .song_img{
+.main .player_right .song_info .song_img{
     position: relative;
     display: block;
     width: 186px;
     height: 186px;
     margin: 0 auto 15px auto;
 }
-main .player_right .song_info .song_img:after {
+.main .player_right .song_info .song_img:after {
     content: "";
     position: absolute;
     left: 9px;
@@ -282,22 +282,22 @@ main .player_right .song_info .song_img:after {
     height: 180px;
     background: url(img/album_cover_player.png) 0 0 no-repeat;
 }
-main .player_right .song_info .song_img img{
+.main .player_right .song_info .song_img img{
     vertical-align: middle;
     width: 186px;
     height: 186px;
 }
-main .player_right .song_info div{
+.main .player_right .song_info div{
     white-space: nowrap;
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     height: 28px;
 }
-main .player_right .song_info div a{
+.main .player_right .song_info div a{
     color: rgba(225,225,225,.8);    
 }
-main .player_right .song_info div a:hover{
+.main .player_right .song_info div a:hover{
     color: rgb(255, 255, 255,1);    
 }
 @media screen and ( max-height: 700px ) {
@@ -316,25 +316,25 @@ main .player_right .song_info div a:hover{
     }
 }
 @media screen and ( max-width: 1150px ) {
-    main .player_right{
+    .main .player_right{
         display: none;     
     }
-    main .player_left{
+    .main .player_left{
         right: 0;     
     }
 }
-main .player_right .lyrics{
+.main .player_right .lyrics{
     position: relative;
     width: 100%;
     height: 40%;    
     margin-top: 11%;
     overflow: hidden;
 }
-main .player_right .lyrics .box_lyc{
+.main .player_right .lyrics .box_lyc{
     position: absolute;
     width: 100%;
 }
-main .player_right .lyrics .lys{
+.main .player_right .lyrics .lys{
     margin: 8 auto;
     width: 100%;
     height: 34px;
@@ -343,70 +343,70 @@ main .player_right .lyrics .lys{
     white-space: nowrap;
     overflow: hidden;
 }
-main .player_right .lyrics li.on{
+.main .player_right .lyrics li.on{
     color: #31c27c;
 }
-main footer{
+.main footer{
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 11%;
 }
-main footer span{
+.main footer span{
     position: absolute;
     background: url(img/player.png);
     cursor: pointer;
     opacity: 0.8;    
 }
-main footer span:hover{
+.main footer span:hover{
     opacity: 1;
 }
-main footer span.btn_prev{
+.main footer span.btn_prev{
     top: 4px;
     left: 0;
     width: 19px;
     height: 20px;
     background-position: 0 -30px;
 }
-main footer span.btn_stop{
+.main footer span.btn_stop{
     top: 0;
     left: 65px;
     width: 21px;
     height: 29px;
     background-position: 0 0;
 }
-main footer span.btn_start{
+.main footer span.btn_start{
     background-position: -30px 0;
 }
-main footer span.btn_next{
+.main footer span.btn_next{
     top: 4px;
     left: 132px;
     width: 19px;
     height: 20px;
     background-position: 0 -52px;
 }
-main footer .music_pogress{
+.main footer .music_pogress{
     position: relative;
     margin: 0 448px 0 208px
 }
-main footer .progress{
+.main footer .progress{
     padding-top: 6px;
     height: 8px;
     cursor: pointer;
 }
-main footer .music_pogress .line,
-main footer .music_pogress .bigline{
+.main footer .music_pogress .line,
+.main footer .music_pogress .bigline{
     position: absolute;
     top: 25px;
     width: 100%;
     height: 2px;
     background: rgba(255,255,255,.2);
 }
-main footer .music_pogress .bigline{
+.main footer .music_pogress .bigline{
     width: 0;
     background: rgba(255,255,255,.8);
 }
-main footer .music_pogress .bigline .dotted{
+.main footer .music_pogress .bigline .dotted{
     position: absolute;
     top:-4px;
     right: -5px;
@@ -415,61 +415,61 @@ main footer .music_pogress .bigline .dotted{
     background: rgba(255,255,255,1);    
     border-radius: 50%;
 }
-main footer .music_pogress .music_text,
-main footer .music_pogress .music_text a{
+.main footer .music_pogress .music_text,
+.main footer .music_pogress .music_text a{
     color: rgba(225,225,225,.8);       
 }
-main footer .music_pogress .music_text a:hover{
+.main footer .music_pogress .music_text a:hover{
     color: rgba(255,255,255,1);       
 }
-main footer .music_pogress .music_text .text_right{
+.main footer .music_pogress .music_text .text_right{
     position: absolute;
     right: 0;
     top: 0;
 }
-main footer .btn_order{
+.main footer .btn_order{
     top: 4px;
     right: 378px;
     width: 26px;
     height: 25px;
     background-position: 0 -232px;
 }
-main footer .btn_like{
+.main footer .btn_like{
     top: 4px;
     right: 330px;
     width: 23px;
     height: 21px;
     background-position: 0 -96px;
 }
-main footer .btn_down{
+.main footer .btn_down{
     top: 4px;
     right: 286px;
     width: 22px;
     height: 21px;
     background-position: 0 -120px;
 }
-main footer .btn_comment{
+.main footer .btn_comment{
     top: 3px;
     right: 237px;
     width: 24px;
     height: 24px;
     background-position: 0 -400px;
 }
-main footer .btn_off{
+.main footer .btn_off{
     top: 3px;
     right: 137px;
     width: 74px;
     height: 26px;
     background-position: 0 -282px;
 }
-main footer .music_sound{
+.main footer .music_sound{
     position: absolute;
     top: 0;
     right: 0;
     height: 21px;
     width: 111px;
 }
-main footer .music_sound .sound{
+.main footer .music_sound .sound{
     position: absolute;
     margin-right: 31px;    
     top: 4px;
@@ -479,10 +479,10 @@ main footer .music_sound .sound{
     background: url(img/player.png);
     background-position: 0 -144px;
 }
-main footer .music_sound .sound_no{
+.main footer .music_sound .sound_no{
     background-position: 0 -182px;
 }
-main footer .music_sound .progress{
+.main footer .music_sound .progress{
     position: absolute;
     right: 0;
     top: 0;
@@ -490,7 +490,7 @@ main footer .music_sound .progress{
     margin-top: 5px;
     height: 14px;
 }
-main footer .music_sound .progress .line{
+.main footer .music_sound .progress .line{
     position: absolute;
     right: 0;
     top: 10px;
@@ -498,7 +498,7 @@ main footer .music_sound .progress .line{
     height: 2px;
     background: rgba(255,255,255,.2);
 }
-main footer .music_sound .progress .bigline{
+.main footer .music_sound .progress .bigline{
     position: absolute;
     left: 0;
     top: 10px;
@@ -506,7 +506,7 @@ main footer .music_sound .progress .bigline{
     height: 2px;
     background: rgba(255,255,255,1);
 }
-main footer .music_sound .progress .bigline .dotted{
+.main footer .music_sound .progress .bigline .dotted{
     position: absolute;
     top:-4px;
     right: -5px;
@@ -515,7 +515,7 @@ main footer .music_sound .progress .bigline .dotted{
     background: rgba(255,255,255,1);    
     border-radius: 50%;
 }
-main footer audio{
+.main footer audio{
     display: none;
 }
 .bg_player, .bg_player_mask {
