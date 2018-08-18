@@ -34,6 +34,7 @@ $(document).ready(function(){
                     $list.append($musicItem);
                 });
                 init(0);
+                isIE();                
             },
             error: function(e){
                 console.log(e);
@@ -171,14 +172,6 @@ $(document).ready(function(){
         $(".song").eq(musicIndex).addClass("on").siblings().removeClass("on");
         $(".song_btn").removeClass("song_btn_show");
     }
-    $(audio).on("waiting",function(){
-        $(".loading").show();
-        console.log("jiazai");
-    });
-    $(audio).on("canplay",function(){
-        console.log("ok");
-        $(".loading").hide();
-     });
     // 获取歌曲时间
     function getTime(mu_time){
         var tim = mu_time.split(":");
@@ -249,7 +242,21 @@ $(document).ready(function(){
         $soundLine.css("width",results+"%");
         audio.volume = results*0.01;
     }
-
+    // 判断是否是IE
+    function isIE() {
+        if (!!window.ActiveXObject || "ActiveXObject" in window){
+             $(".bg_player").css("opacity","0");
+             console.log("你是IE用户，不支持filter: blur");
+        }
+    }
+    
+    // 歌曲正在加载状态
+    $(audio).on("waiting",function(){
+        $(".loading").show();
+    });
+    $(audio).on("canplay",function(){
+        $(".loading").hide();
+     });
     // 全选
     $(".song_header_check .checkbox").on("click",function(){
         var $checkbox = $(".song .checkbox");        
