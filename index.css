@@ -179,6 +179,12 @@ header .login_box a:hover{
 .main .player_left .song_list{
     border-bottom: 1px solid rgba(255,255,255,.05);
 }
+.main .player_left .song_list li.on{
+    color: #fff;
+}
+.main .player_left .song_list li.on a{
+    color: #fff;
+}
 .main .player_left .song_list div{
     float: left;
 }
@@ -374,6 +380,17 @@ header .login_box a:hover{
     width: 21px;
     height: 29px;
     background-position: 0 0;
+}
+.main footer .loading{
+    display: none;
+    position: absolute;
+    top: -46px;
+    left: 18px;
+    padding-left: 40px;
+    height: 20px;
+    width: 100px;
+    background: url(img/loading.gif) left/contain no-repeat;
+    color: rgba(255, 255, 255,.4);
 }
 .main footer span.btn_start{
     background-position: -30px 0;
