@@ -344,6 +344,9 @@ $(document).ready(function(){
                 audio.muted = true; 
             }
         });
+        $(document).one("mousemove",function(){
+            audio.muted = false;
+        });
         //窗口变化重新获取进度条的长度
         $(window).on("resize",resize)
     }
