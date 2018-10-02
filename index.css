@@ -267,6 +267,28 @@ header .login_box a:hover{
 .main .player_left .text_hide{
     display: none!important;
 }
+/* 纯净模式 */
+.main.concise .player_left{
+    display: none;
+}
+.main.concise .player_right{
+    width: 100%;
+    font-size: 22px;
+    line-height: 58px;
+}
+.main.concise .player_right .song_info{
+    display: none;
+}
+.main.concise .player_right .lyrics{
+    height: 75%;    
+    margin-top: 6%;
+}
+.main.concise .player_right .lyrics li{
+    line-height: 58px;
+}
+.main.concise footer .btn_off{
+    background-position: 0 -311px;
+}
 .main .player_right{
     position: absolute;
     top: 11%;
@@ -330,6 +352,9 @@ header .login_box a:hover{
     .main .player_right{
         display: none;     
     }
+    .main.concise .player_right{
+        display: block;     
+    }
     .main .player_left{
         right: 0;     
     }
@@ -348,7 +373,6 @@ header .login_box a:hover{
 .main .player_right .lyrics .lys{
     margin: 8 auto;
     width: 100%;
-    height: 34px;
     line-height: 34px;
     text-align: center;
     white-space: nowrap;
@@ -560,4 +584,108 @@ header .login_box a:hover{
 }
 ._mCS_1 .mCSB_dragger .mCSB_dragger_bar{
     width: 7px; 
+}
+/* 弹框提示 */
+.t-ico{
+    display: block;
+    background-image: url(img/icon_popup.png);
+}
+.hid_tips{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.1);
+    color: #333;
+}
+.hid_tips .tips_cnt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -117.5px;
+    margin-left: -260px;
+    height: 235px;
+    width: 520px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+.hid_tips .tips_cnt .tips_header{
+    line-height: 55px;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.hid_tips .tips_cnt .tips_header .close-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    height: 12px;
+    width: 12px;
+    background-position: 0 -200px;
+    cursor: pointer;
+}
+.hid_tips .tips_cnt .tips_header .close-btn:hover{
+    background-position: -14px -200px;
+}
+.hid_tips .tips_cnt .tips_body{
+    position: relative;
+    margin-top: 30px;
+    padding: 0 108px 28px;
+    line-height: 41px;
+}
+.hid_tips .tips_cnt .tips_body .ico_tips{
+    position: absolute;
+    left: 40px;
+    width: 48px;
+    height: 48px;
+}
+.hid_tips .tips_cnt .tips_footer{
+    padding: 20px 20px 0 0;
+    text-align: right;
+}
+.hid_tips .tips_cnt .tips_footer button{
+    width: 120px;
+    line-height: 38px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.hid_tips .tips_cnt .tips_footer .btn_confirm{
+    background-color: #31c27c;
+    border: 1px solid #31c27c;
+    color: #fff;
+}
+.hid_tips .tips_cnt .tips_footer .btn_confirm:hover{
+    background-color: #2caf6f; 
+}
+.hid_tips .tips_cnt .tips_footer .btn_cancel{
+    background-color: #fff;
+    border: 1px solid #c9c9c9;    
+}
+.hid_tips .tips_cnt .tips_footer .btn_cancel:hover{
+    background-color: #ededed;
+}
+.tips-sm{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -120px;
+    width: 240px;
+    height: 150px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 3px;
+}
+.tips-sm i{
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin: 30px auto;
+    background-position: 0 -220px;
+}
+.tips-sm p{
+    color: #fff;
+    text-align: center;
 }
